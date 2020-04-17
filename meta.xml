@@ -1,0 +1,10 @@
+<meta>
+	<script src="c.lua" type="client" cache="false"/>
+	
+	<export function="customButton" type="client"/>
+	<export function="shadowText" type="client"/>
+	
+	<file src="f.ttf"/>
+	<file src="button_off.png" />
+	<file src="button_on.png" />
+</meta>
