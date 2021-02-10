@@ -1,15 +1,15 @@
 # buttons
-Skrypt na graficzne przyciski z tekstem.
-# użycie
-w evencie 'onClientRender' tworzymy button:
+Nice-to-have script to make easy buttons in your gamemode in MTA:SA platform.
+# using
+it all happend in 'onClientRender' callback
 ```
-exports["nazwa_zasobu"]:customButton(text, x, y, w, h)
+exports["buttons"]:customButton(text, x, y, w, h)
 ```
 do dyspozycji również opcja 'shadow text':
 ```
-exports["nazwa_zasobu"]:shadowText(x, y, w, h, s, color)
+exports["buttons"]:shadowText(x, y, w, h, s, color)
 ```
-Argument 's' odpowiada za wielkość czcionki - 0=10pkt, 1=12pkt.
-Domyślna czcionka każdego przycisku ustawiona na 12pkt.
+The 's' arg is font-size. You can set 0=10px, and 1=12px.
+Default font-size I set to 12px.
 # od autora
-użycie dozwolone wszędzie, zezwalam na wszystko, bierzcie i używajcie.
+Script created by me. You can use it anywhere you want, but don't remove my github from the top of script. Happy using!
